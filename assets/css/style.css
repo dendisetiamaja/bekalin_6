@@ -299,6 +299,7 @@ h1, h2, h3, h4, h5, h6 {
   width: 100%;
   height: 100vh;
   background-size: cover;
+  opacity: 1;
   position: relative;
 }
 #hero:before {
@@ -494,7 +495,7 @@ section {
   padding: 60px 30px;
   position: relative;
   overflow: hidden;
-  background: #fff;
+  background: darkslategray;
   box-shadow: 2px 0 35px 0 rgba(68, 88, 144, 0.12);
   transition: all 0.3s ease-in-out;
   border-radius: 8px;
@@ -504,7 +505,7 @@ section {
 .services .icon-box::before {
   content: "";
   position: absolute;
-  background: #fdeff2;
+  background:darkslategray;
   right: 0;
   left: 0;
   bottom: 0;
@@ -513,7 +514,7 @@ section {
   z-index: -1;
 }
 .services .icon-box:hover::before {
-  background: #e43c5c;
+  background:darkorange;
   top: 0;
   border-radius: 0px;
 }
@@ -523,7 +524,7 @@ section {
 .services .icon i {
   font-size: 48px;
   line-height: 1;
-  color: #e43c5c;
+  color: darkorange;
   transition: all 0.3s ease-in-out;
 }
 .services .title {
@@ -583,7 +584,7 @@ section {
 # Cta
 --------------------------------------------------------------*/
 .cta {
-  background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(0, 0, 0, 0.8)), url("../img/cta-bg.jpg") center center;
+  background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(0, 0, 0, 0.8)), url("../img/paspor.jpg") center center;
   background-size: cover;
   padding: 60px 0;
 }
